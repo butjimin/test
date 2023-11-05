@@ -1,0 +1,118 @@
+#wrapper{
+    background-image: url("./image.jpg");
+    background-size: cover; 
+    background-repeat:repeat;
+}
+
+#wrapper
+.top{
+}
+
+#wrapper
+.middle{
+    margin: 0 auto;
+    text-align: center;
+    min-height: 500px;
+    display: flex;
+    justify-content: center; /* 주 축을 따라 요소들을 수직 방향으로 중앙 정렬 */
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottom{
+    min-height: 200px;
+}
+
+.popup_box{
+    background-color: white;
+    width: 80%;
+    height: 500px;
+}
+
+#wrapper div.middle
+h3{
+
+}
+
+#wrapper div.middle
+.btn-list{
+    justify-content: center; /* 주 축을 따라 요소들을 수직 방향으로 중앙 정렬 */
+    align-items: center;
+}
+
+#wrapper div.bottom
+.btn-list{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    gap: 50px;
+    justify-content: center; /* 주 축을 따라 요소들을 수직 방향으로 중앙 정렬 */
+    align-items: center; /* 교차 축을 따라 요소들을 수평 방향으로 중앙 정렬 */
+    padding-bottom: 20px;
+}
+
+#wrapper div.bottom ul.btn-list
+li{
+    display: block;
+    cursor: pointer;
+    background-color: rgb(203, 98, 255);
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a :visited{
+    color:white;
+}
+
+#wrapper div.bottom ul.btn-list
+li:hover{
+    background-color: red;
+}
+
+.modal{
+    margin-left:-200px;
+    margin-top:-106.5px;
+    display: block;
+    padding:0 25px;
+    width:400px;
+    height:290px;
+    box-sizing: border-box;
+}
+
+.box-img {
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+    object-fit: cover;
+    justify-content: center; /* 주 축을 따라 요소들을 수직 방향으로 중앙 정렬 */
+    align-items: center; /* 교차 축을 따라 요소들을 수평 방향으로 중앙 정렬 */
+    padding: 25px;
+}
+
+.paragraph{
+    width: 1200px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* 50% 불투명한 흰색 배경 */
+   margin-top: 20px;
+   margin-bottom: 40px;
+   
+}
+
+p{
+    text-align: left;
+}
+
+.sign{
+    font-size: 14px;
+    color: gray;
+    font-weight: 700;
+}
